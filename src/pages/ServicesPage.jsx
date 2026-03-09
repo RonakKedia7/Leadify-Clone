@@ -19,7 +19,7 @@ function ServicesPage() {
   const [activeService, setActiveService] = useState("01");
 
   return (
-    <div className="p-8 sm:p-12 md:p-14 lg:px-14 lg:py-22 min-h-screen bg-white flex flex-col lg:flex-row">
+    <div className="py-8 px-3 sm:p-12 md:p-14 lg:px-14 lg:py-22 min-h-screen bg-white flex flex-col lg:flex-row">
       {/* Left Sidebar */}
       <div className="w-full lg:w-5/12 xl:w-1/3 relative min-h-80 lg:min-h-full">
         <div className="absolute inset-0 bg-[url('/services-texture.jpeg')] bg-cover bg-center"></div>
